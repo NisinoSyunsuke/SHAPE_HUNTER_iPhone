@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93e7b5928d2b79649942f042043cac7e, type: 3}
+  m_Name: WaveUnit9(BOSS)
+  m_EditorClassIdentifier: 
+  waveQuantity: 1
+  waveRarityRate: 2
+  waveType: 1
+  bossCnt: 2
+  monsterAppearanceDataList:
+  - monsterName: 5
+    spawnRate: 34
+    rateFluctuation: 0
+  - monsterName: 6
+    spawnRate: 33
+    rateFluctuation: 0
+  - monsterName: 3
+    spawnRate: 33
+    rateFluctuation: 0

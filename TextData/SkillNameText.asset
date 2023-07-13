@@ -1,0 +1,151 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a5bb73411c3406459cc120cef88b219, type: 3}
+  m_Name: SkillNameText
+  m_EditorClassIdentifier: 
+  eachLanguages:
+  - japanese_text: "\u30BC\u30ED\u30B0\u30E9\u30D3\u30C6\u30A3"
+    english_text: ZeroGravity
+  - japanese_text: "\u30ED\u30FC\u30B0\u30E9\u30D3\u30C6\u30A3"
+    english_text: LowGravity
+  - japanese_text: "\u5C0F\u578B\u30CA\u30A4\u30D5"
+    english_text: SmallKnifeLv1
+  - japanese_text: "\u30A2\u30B9\u30EA\u30FC\u30C8"
+    english_text: AthleteLv1
+  - japanese_text: "\u96F7"
+    english_text: Thunder
+  - japanese_text: "\u30DC\u30DE\u30FC"
+    english_text: Bomber
+  - japanese_text: "\u30D5\u30A1\u30A4\u30F3\u30B9\u30D1\u30FC\u30AF"
+    english_text: FineSpark
+  - japanese_text: "\u9244\u306E\u93A7"
+    english_text: IronArmorLv1
+  - japanese_text: "\u547D\u306E\u6B20\u7247"
+    english_text: LifeFragmentLv1
+  - japanese_text: "\u547D\u306E\u96EB"
+    english_text: InotiShizukuLv1
+  - japanese_text: "\u30A8\u30CD\u30EB\u30AE\u30FC\u30BF\u30F3\u30AF"
+    english_text: EnergyTankLv1
+  - japanese_text: "\u30EA\u30B6\u30EC\u30AF\u30B7\u30E7\u30F3"
+    english_text: Resurrection
+  - japanese_text: "\u30A8\u30F3\u30C1\u30E3\u30F3\u30C8\u30D5\u30A1\u30A4\u30A2"
+    english_text: EnchantmentFire
+  - japanese_text: "\u30CF\u30A4\u30B9\u30D4\u30FC\u30C9"
+    english_text: HighSpeedLv1
+  - japanese_text: "\u30EA\u30F3\u30B4"
+    english_text: Apple
+  - japanese_text: "\u30DD\u30FC\u30B7\u30E7\u30F3"
+    english_text: Potion
+  - japanese_text: "\u30AE\u30E3\u30F3\u30D6\u30E9\u30FC"
+    english_text: Gambler
+  - japanese_text: "\u30DE\u30B8\u30B7\u30E3\u30F3"
+    english_text: Magician
+  - japanese_text: "\u30B5\u30E2\u30F3\u30B5\u30FC\u30AF\u30EB"
+    english_text: SummonCircle
+  - japanese_text: "\u4E21\u5203\u5263"
+    english_text: DoubleEdgedSword
+  - japanese_text: "\u935B\u51B6\u8077\u4EBA"
+    english_text: Blacksmith
+  - japanese_text: "\u5FC5\u6BBA"
+    english_text: Deadly
+  - japanese_text: "\u9023\u9396"
+    english_text: Chain
+  - japanese_text: "\u30A4\u30F3\u30D5\u30A3\u30CB\u30C6\u30A3"
+    english_text: Infinity
+  - japanese_text: "\u5DE8\u5927"
+    english_text: GiantLv1
+  - japanese_text: "\u30AF\u30E9\u30A4\u30DE\u30FC"
+    english_text: Climber
+  - japanese_text: "\u30F4\u30A1\u30F3\u30D1\u30A4\u30A2"
+    english_text: Vampire
+  - japanese_text: "\u30D7\u30EC\u30C7\u30BF\u30FC"
+    english_text: Predator
+  - japanese_text: "\u5C0F\u578B\u30CA\u30A4\u30D5\u3000Lv2"
+    english_text: SmallKnifeLv2
+  - japanese_text: "\u5C0F\u578B\u30CA\u30A4\u30D5\u3000Lv3"
+    english_text: SmallKnifeLv3
+  - japanese_text: "\u30A2\u30B9\u30EA\u30FC\u30C8 Lv2"
+    english_text: AthleteLv2
+  - japanese_text: "\u30A2\u30B9\u30EA\u30FC\u30C8 Lv3"
+    english_text: AthleteLv3
+  - japanese_text: "\u9244\u306E\u93A7 Lv2"
+    english_text: IronArmorLv2
+  - japanese_text: "\u9244\u306E\u93A7 Lv3"
+    english_text: IronArmorLv3
+  - japanese_text: "\u547D\u306E\u6B20\u7247 Lv2"
+    english_text: LifeFragmentLv2
+  - japanese_text: "\u547D\u306E\u96EB Lv2"
+    english_text: InotiShizukuLv2
+  - japanese_text: "\u30A8\u30CA\u30B8\u30FC\u30BF\u30F3\u30AF Lv2"
+    english_text: EnergyTankLv2
+  - japanese_text: "\u30A8\u30CA\u30B8\u30FC\u30BF\u30F3\u30AF Lv3"
+    english_text: EnergyTankLv3
+  - japanese_text: "\u30CF\u30A4\u30B9\u30D4\u30FC\u30C9 Lv2"
+    english_text: HighSpeedLv2
+  - japanese_text: "\u30CF\u30A4\u30B9\u30D4\u30FC\u30C9 Lv3"
+    english_text: HighSpeedLv3
+  - japanese_text: "\u9752\u30EA\u30F3\u30B4"
+    english_text: GreenApple
+  - japanese_text: "\u30CF\u30A4\u30DD\u30FC\u30B7\u30E7\u30F3"
+    english_text: HighPotion
+  - japanese_text: "\u5DE8\u5927 Lv2"
+    english_text: GiantLv2
+  - japanese_text: "\u5DE8\u5927 Lv3"
+    english_text: GiantLv3
+  - japanese_text: "\u30D0\u30A6\u30F3\u30C9\u5F3E"
+    english_text: BoundArrow
+  - japanese_text: "\u9AD8\u901F\u5207\u63DB"
+    english_text: SpeedChange
+  - japanese_text: "\u30E9\u30D4\u30C3\u30C9\u30D5\u30A1\u30A4\u30A2"
+    english_text: RapidFire
+  - japanese_text: "\u30C9\u30E9\u30B4\u30F3\u30B7\u30E7\u30C3\u30C8"
+    english_text: DragonShot
+  - japanese_text: "\u5927\u30C1\u30A7\u30A4\u30F3"
+    english_text: GreatChain
+  - japanese_text: "\u30A8\u30AF\u30B9\u30D7\u30ED\u30FC\u30B8\u30E7\u30F3"
+    english_text: Explosion
+  - japanese_text: "\u91CE\u5BBF\u30BB\u30C3\u30C8 Lv1"
+    english_text: CampSetLv1
+  - japanese_text: "\u30B7\u30FC\u30EB\u30C9"
+    english_text: Shieid
+  - japanese_text: "\u30A4\u30FC\u30B8\u30B9\u30B7\u30FC\u30EB\u30C9"
+    english_text: AegisShieid
+  - japanese_text: "\u30DF\u30CB\u30B7\u30E7\u30C3\u30C8"
+    english_text: MiniShot
+  - japanese_text: "\u91CE\u5BBF\u30BB\u30C3\u30C8 Lv2"
+    english_text: CampSetLv2
+  - japanese_text: "\u91CE\u5BBF\u30BB\u30C3\u30C8 Lv3"
+    english_text: CampSetLv3
+  - japanese_text: "\u30C0\u30D6\u30EB\u30B7\u30E7\u30C3\u30C8"
+    english_text: DoubleShot
+  - japanese_text: "\u30AF\u30EA\u30C6\u30A3\u30AB\u30EB Lv1"
+    english_text: CriticalLv1
+  - japanese_text: "\u30AF\u30EA\u30C6\u30A3\u30AB\u30EB Lv2"
+    english_text: CriticalLv2
+  - japanese_text: "\u30AF\u30EA\u30C6\u30A3\u30AB\u30EB Lv3"
+    english_text: CriticalLv3
+  - japanese_text: "\u76FE\u932C\u6210"
+    english_text: ShieldForge
+  - japanese_text: "\u30D7\u30ED\u30C6\u30AF\u30B7\u30E7\u30F3"
+    english_text: Protection
+  - japanese_text: "\u5E78\u904B"
+    english_text: Lucky
+  - japanese_text: "\u30AF\u30EA\u30C6\u30A3\u30AB\u30EB\u30A6\u30A7\u30FC\u30D6"
+    english_text: CricalWave
+  - japanese_text: "\u8056\u306A\u308B\u77E2"
+    english_text: HollyArrow
+  - japanese_text: "\u30C8\u30E9\u30A4\u30C7\u30F3\u30C8"
+    english_text: Trident
+  - japanese_text: "\u30B0\u30F3\u30B0\u30CB\u30EB"
+    english_text: Gungnir
+  - japanese_text: "\u5149\u306E\u53CB"
+    english_text: FriendOfLight
